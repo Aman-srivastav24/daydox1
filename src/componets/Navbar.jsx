@@ -27,8 +27,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-gradient-to-r from-green-500 to-green-700 p-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-gradient-to-r from-green-500 to-green-700 p-4  ">
+      <div className="container mx-auto flex justify-between items-center ">
         <Link to="/" className="text-white text-lg font-bold text-[22px] flex items-center transition duration-300 ease-in-out transform hover:scale-105">
           <span className="mr-2">
             <FiLayers size={24} />
@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <ul
             className={`lg:flex lg:space-x-14 lg:font-bold lg:items-center ${
-              isMobileMenuOpen ? 'flex flex-col space-y-4 absolute right-0 top-16 bg-green-700 p-4 rounded-md shadow-md' : 'hidden'
+              isMobileMenuOpen ? 'flex flex-col space-y-4 absolute z-[1] right-0 top-16 bg-green-700 p-4 rounded-md shadow-md' : 'hidden'
             }`}
           >
             <li className="text-white">

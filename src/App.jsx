@@ -8,6 +8,8 @@ import Home from './componets/Home'
 import Services from './componets/Services'
 import ContactForm from './componets/ContactForm'
 import Work from './componets/Work'
+import Footer from './componets/Footer'
+import Testmonial from './componets/Testmonial'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,12 +18,16 @@ function App() {
     <BrowserRouter>
     <>
     <Navbar/>
+    
     <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/services" element={<Services/>} />
           <Route path="/work" element={<Work />} />
+          
           <Route path="/contact" element={<ContactForm/>} />
     </Routes>
+  
+    <Footer/>
     </>
     </BrowserRouter>
   )
