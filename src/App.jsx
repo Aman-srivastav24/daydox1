@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState ,useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -9,15 +9,28 @@ import Services from './componets/Services'
 import ContactForm from './componets/ContactForm'
 import Work from './componets/Work'
 import Footer from './componets/Footer'
-import Testmonial from './componets/Testmonial'
 import BackToTop from './componets/BackToTop'
-
+import './componets/LoadingSpinner.css';
+import LoadingSpinner from './componets/LoadingSpinner'
 function App() {
   const [count, setCount] = useState(0)
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    // Simulate loading for 2 seconds
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
 
+    // Cleanup the timer on unmount
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <BrowserRouter>
     <>
+    {isLoading ? (
+          <LoadingSpinner />
+        ) : (
+          <>
     <Navbar/>
     
     <Routes>
@@ -29,6 +42,8 @@ function App() {
     </Routes>
     <BackToTop/>
     <Footer/>
+    </>
+    )}
     </>
     </BrowserRouter>
   )
