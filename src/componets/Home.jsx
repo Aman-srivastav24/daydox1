@@ -36,7 +36,7 @@ const Home = () => {
   }, [textAnimation]);
   return (
     <div >
-      <section className="bg-gray-200 h-[50vh] bg-[url('/home/amansrivastav/Desktop/daydox1/src/assets/background1.jpg')] bg-cover bg-no-repeat bg-center mt-4 rounded-lg  flex-col items-center md:h-[60vh]">
+      <section className="bg-gray-200 h-[50vh] bg-hero-pattern bg-cover bg-no-repeat bg-center mt-4 rounded-lg  flex-col items-center md:h-[60vh]">
         <div className="container mx-auto text-white  text-center p-8 backdrop-blur-[1px] bg-black/10 w-auto md:w-[80%] rounded-lg mt-10 " >
           <h1 className="text-3xl   font-bold mb-2 lg:text-6xl">&lt; Welcome to DayDox /&gt;</h1>
           <p className="text-[24px] md:text-[30px] mb-6 font-bold text-gray-200  font-mono  text-slide-container Shadow rounded-lg p-4">

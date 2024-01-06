@@ -10,7 +10,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('src/assets/pexels-pew-nguyen-12786598.jpg')"
+        'hero-pattern': "url('src/assets/background1.jpg')"
       }
     },
   },
