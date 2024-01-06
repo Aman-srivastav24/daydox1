@@ -8,7 +8,7 @@ const MobileMenuButton = ({ onClick , isMobileMenuOpen}) => {
       onClick={onClick}
       className="lg:hidden text-white focus:outline-none focus:shadow-outline-blue"
     >
-      {isMobileMenuOpen ?<FiX size={24} className='transition duration-100 ease-in-out transform hover:scale-110' /> :<FiMenu size={24} className='transition duration-100 ease-in-out transform hover:scale-110' />}
+      {isMobileMenuOpen ?<FiX size={24} className='transition duration-200 ease-in-out transform hover:scale-110' /> :<FiMenu size={24} className='transition duration-200 ease-in-out transform hover:scale-110' />}
     </button>
   );
 };

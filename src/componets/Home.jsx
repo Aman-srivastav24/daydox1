@@ -54,7 +54,7 @@ const Home = () => {
       </section>
 
 
-      <div class="rounded-md border-l-4 border-green-500  p-4 mt-10 mx-6 w-auto h-auto hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out transform  bg-gradient-to-r from-yellow-200 to-purple-200  ">
+      <div class="rounded-md border-l-4 border-green-500  p-4 mt-10 mx-6 w-auto h-auto  hover:shadow-2xl transition duration-300 ease-in-out transform  bg-gradient-to-r from-yellow-200 to-purple-200  ">
         <div class="flex items-center justify-between space-x-4 mx-auto rounded-md shadow-xl">
           <div>
 
