@@ -1,7 +1,7 @@
 // src/components/Work.js
 import React from 'react';
 import dotmedia from '../assets/dotmedia.png'
-import upinthesky from '../assets/upinthesky.png'
+import upinthesky from '../assets/imagesky.png'
 import clean from '../assets/clean.png'
 import { CiSearch } from "react-icons/ci";
 import { Link } from 'react-router-dom';
@@ -37,7 +37,7 @@ const Work = () => {
   <img
     src={upinthesky}
     alt="AirMax Pro"
-    class="z-0 h-full w-full  shadow-2xl "
+    class="z-0 h-full  w-full  shadow-2xl "
   />
   <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
   <div class="absolute bottom-4 left-4 text-left p-2 backdrop-blur-[1px] bg-black/10">

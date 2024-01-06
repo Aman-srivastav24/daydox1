@@ -5,9 +5,9 @@ import { FiHome, FiLayers, FiMail, FiBriefcase } from 'react-icons/fi';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r relative bottom-0 w-auto from-green-500 to-green-700 text-white p-6">
+    <footer className="bg-gradient-to-r   bottom-0 w-auto from-green-500 to-green-700 text-white p-6">
      <section class="relative overflow-hidden bg-white py-8">
-  <div class="container relative z-10 mx-auto px-4">
+  <div class="container  z-10 mx-auto px-4">
     <div class="-m-8 flex flex-wrap items-center justify-between">
       <div class="w-auto p-8">
         <a href="#">

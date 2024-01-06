@@ -25,3 +25,19 @@ body {
   button {
     width: 100%;
   }
+  /* Add these styles to your existing styles or create a new CSS file */
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.text-slide-container {
+  animation: slideIn 1.5s ease-in-out;
+}

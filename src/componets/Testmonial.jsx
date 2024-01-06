@@ -3,7 +3,8 @@ import aditya from '../assets/aditya.jpg'
 function Testmonial() {
   return (
    <>
-   <section class="px-2 py-16 mx-0.5 md:mx-7 ">
+   <section class=" py-16  ">
+   <div className="container mx-auto">
    <h2 className="text-3xl font-bold mb-8 mx-4 text-green-500
         bg-gradient-to-r from-yellow-200 to-purple-200 rounded-md p-2">Client Feedback</h2>
   <div class="mx-auto max-w-4xl">
@@ -25,6 +26,7 @@ function Testmonial() {
         <p class="mt-1 text-base text-gray-600">Owner : Clean Cruisers</p>
       </div>
     </div>
+  </div>
   </div>
 </section>
 

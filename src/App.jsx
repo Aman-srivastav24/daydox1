@@ -10,6 +10,7 @@ import ContactForm from './componets/ContactForm'
 import Work from './componets/Work'
 import Footer from './componets/Footer'
 import Testmonial from './componets/Testmonial'
+import BackToTop from './componets/BackToTop'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,7 +27,7 @@ function App() {
           
           <Route path="/contact" element={<ContactForm/>} />
     </Routes>
-  
+    <BackToTop/>
     <Footer/>
     </>
     </BrowserRouter>
