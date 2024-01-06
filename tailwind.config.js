@@ -8,7 +8,11 @@ export default {
     fontFamily:{
      'rubi':['Rubik Doodle Shadow']
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/home/amansrivastav/Desktop/daydox1/src/assets/background1.jpg')"
+      }
+    },
   },
   plugins: [],
 }
